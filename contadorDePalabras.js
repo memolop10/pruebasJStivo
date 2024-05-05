@@ -2,6 +2,7 @@
 
 const contadorPalabras = (phrase) => {
     const palabras = phrase.toLowerCase().replace(/[^\w\s]/gi,"").split(" ");
+    console.log(palabras)
 
     let contador = {}
 
@@ -12,6 +13,8 @@ const contadorPalabras = (phrase) => {
             contador[palabra] = 1
         }
     })
+
+    console.log(contador)
 
     return contador
 }
