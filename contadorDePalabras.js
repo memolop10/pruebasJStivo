@@ -14,8 +14,6 @@ const contadorPalabras = (phrase) => {
         }
     })
 
-    console.log(contador)
-
     return contador
 }
 
